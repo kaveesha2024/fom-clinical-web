@@ -1,270 +1,367 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-            rel="icon"
-            href="https://www.medi.ruh.ac.lk/wp-content/uploads/2019/04/logouor.png"
+      rel="icon"
+      href="https://www.medi.ruh.ac.lk/wp-content/uploads/2019/04/logouor.png"
     />
-    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/new.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/loaders.css" />
     <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="stylesheet" href="css/nivo-lightbox.css" />
+    <link rel="stylesheet" href="css/team.css" />
     <link rel="stylesheet" href="css/nivo_themes/default/default.css" />
     <link
-            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-            rel="stylesheet"
-            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-            crossorigin="anonymous"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
     />
     <title>Our Team</title>
-</head>
-<body>
-<div class="loader loader-bg">
-    <div class="loader-inner ball-clip-rotate-pulse">
-        <div></div>
-        <div></div>
+  </head>
+  <body>
+    <div class="loader loader-bg">
+        <div class="loader-inner ball-clip-rotate-pulse">
+            <div></div>
+            <div></div>
+        </div>
     </div>
-</div>
 
-<nav class="navbar navbar-toggleable-md mb-4 top-bar navbar-static-top sps sps--abv">
-    <div class="container">
+    <nav
+      class="navbar navbar-toggleable-md mb-4 top-bar navbar-static-top sps sps--abv"
+    >
+      <div class="container">
         <button
-                class="navbar-toggler navbar-toggler-right"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarCollapse1"
-                aria-controls="navbarCollapse"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse1"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="/"  style="user-select: none;"  >Research <span>Clinic</span></a>
+        <a class="navbar-brand" href="/" style="user-select: none"
+          >Research <span>Clinic</span></a
+        >
         <div class="collapse navbar-collapse" id="navbarCollapse1">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html"  style="user-select: none;"  > Home <span class="sr-only">(current)</span></a></li>
-                <li class="nav-item" ><a class="nav-link" href="about.html"  style="user-select: none;"  >About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="services.html"  style="user-select: none;"  >Services</a></li>
-                <li class="nav-item active"><a class="nav-link" href="team.html"  style="user-select: none;"  >Our Team</a></li>
-                <!--            <li class="nav-item"><a class="nav-link" href="#gallery"  style="user-select: none;"  >Image Gallery</a></li>-->
-                <li class="nav-item"><a class="nav-link" href="#contact"  style="user-select: none;"  >Contact Us</a></li>
-            </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="user-select: none">
+                Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" style="user-select: none"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html" style="user-select: none"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="team.html" style="user-select: none"
+                >Our Team</a
+              >
+            </li>
+            <!--            <li class="nav-item"><a class="nav-link" href="#gallery"  style="user-select: none;"  >Image Gallery</a></li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" style="user-select: none"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+
+    <div class="swiper-container main-slider" id="myCarousel">
+      <div class="swiper-wrapper">
+        <div
+          class="swiper-slide slider-bg-position"
+          style="background: url(&quot;img/team1.jpg&quot;)"
+          data-hash="slide1"
+        >
+          <h2>Our Team</h2>
+        </div>
+        <div
+          class="swiper-slide slider-bg-position"
+          style="background: url(&quot;img/team2.jpg&quot;)"
+          data-hash="slide2"
+        >
+          <h2>Meet Our Experts</h2>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
+      <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
     </div>
-</nav>
 
-<div class="swiper-container main-slider" id="myCarousel">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide slider-bg-position" style="background:url('img/team1.jpg')" data-hash="slide1">
-            <h2>Our Team</h2>
-        </div>
-        <div class="swiper-slide slider-bg-position" style="background:url('img/team2.jpg')" data-hash="slide2">
-            <h2>Meet Our Experts</h2>
-        </div>
-    </div>
-
-    <div class="swiper-pagination"></div>
-
-    <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
-    <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
-</div>
-
-<!--body-->
-<!-- team section -->
-<section class="team_section layout_padding">
-    <div class="container-fluid">
-        <div class="heading_container heading_center">
-            <h2 class="">
-                Our <span> Team</span>
-            </h2>
+    <!--body-->
+    <!-- team section -->
+    <section class=" ">
+      <div class="">
+        <div
+          class="headerContainer"
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 600;
+          "
+        >
+          <h2 class="" style="font-weight: 600">
+            <span style="color: black">Meet </span
+            ><span style="color: #1a76d1"> Our Experts</span>
+          </h2>
         </div>
 
-        <div class="team_container">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="images/team-1.jpg" class="img1" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Joseph Brown
-                            </h5>
-                            <p>
-                                Marketing Head
-                            </p>
-                        </div>
-                        <div class="social_box">
-                            <a href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="images/team-2.jpg" class="img1" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Nancy White
-                            </h5>
-                            <p>
-                                Marketing Head
-                            </p>
-                        </div>
-                        <div class="social_box">
-                            <a href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="images/team-3.jpg" class="img1" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Earl Martinez
-                            </h5>
-                            <p>
-                                Marketing Head
-                            </p>
-                        </div>
-                        <div class="social_box">
-                            <a href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="images/team-4.jpg" class="img1" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Josephine Allard
-                            </h5>
-                            <p>
-                                Marketing Head
-                            </p>
-                        </div>
-                        <div class="social_box">
-                            <a href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        <div class="" style="margin-top: 50px">
+          <div class="">
+
+<!--              1-->
+
+            <div>
+              <div
+                style="
+                  content: '';
+                  height: 2px;
+                  background: #8c8585;
+                  margin: 30px;
+                "
+              ></div>
             </div>
+
+            <div class="profMadu">
+              <h4 class="positionTopic">In Charge</h4>
+              <div
+                class="singleBox"
+                style="
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <div class="">
+                  <img src="img/madu.jpg" class="profileImg" alt="" />
+                </div>
+                <div
+                  class=""
+                  style="
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <div
+                    class=""
+                    style="
+                      margin: 0 0 0 50px;
+                      display: flex;
+                      flex-direction: column;
+                    "
+                  >
+                    <h5></h5>
+                    <h5 class="bio">Prof. C.M. Wickramatilake</h5>
+                    <h6 class="bioh6">
+                      (MBBS, PhD in Biochemistry, MSc in Food & Nutrition,
+                      DipIBLM)
+                    </h6>
+                    <p>
+                      * Professor in Biochemistry at the Faculty of Medicine,
+                      University of Ruhuna
+                    </p>
+                    <p>
+                      * Specialist in Lifestyle Medicine focusing on preventing
+                      and reversing chronic diseases
+                    </p>
+                    <p>
+                      * Leads clinical research on insulin resistance, metabolic
+                      disorders, and dietary interventions
+                    </p>
+                  </div>
+                  <div class="teamIconBox">
+                    <a href="#" class="teamIcon">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="teamIcon">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="teamIcon">
+                      <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="teamIcon">
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="teamIcon">
+                      <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!--2-->
+            <div>
+              <div
+                style="
+                  content: '';
+                  height: 2px;
+                  background: #8c8585;
+                  margin: 30px;
+                "
+              ></div>
+            </div>
+
+            <div class="profMadu">
+              <h4 class="positionTopic">Scientific Advisors</h4>
+              <div
+                class="singleBox"
+                style="
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <div class="">
+                  <img src="img/madu.jpg" class="profileImg" alt="" />
+                </div>
+                <div
+                  class=""
+                  style="
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <div
+                    class=""
+                    style="
+                      margin: 0 0 0 50px;
+                      display: flex;
+                      flex-direction: column;
+                    "
+                  >
+                    <h5></h5>
+                    <h5 class="bio">Prof. C.M. Wickramatilake</h5>
+                    <h6 class="bioh6">
+                      (MBBS, PhD in Biochemistry, MSc in Food & Nutrition,
+                      DipIBLM)
+                    </h6>
+                    <p>
+                      * Professor in Biochemistry at the Faculty of Medicine,
+                      University of Ruhuna
+                    </p>
+                    <p>
+                      * Specialist in Lifestyle Medicine focusing on preventing
+                      and reversing chronic diseases
+                    </p>
+                    <p>
+                      * Leads clinical research on insulin resistance, metabolic
+                      disorders, and dietary interventions
+                    </p>
+                  </div>
+                  <div class="teamIconBox">
+                    <a href="#" class="teamIcon">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="teamIcon">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="teamIcon">
+                      <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="teamIcon">
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="teamIcon">
+                      <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
 
-<footer>
-    <div class="container">
+    <footer>
+      <div class="container">
         <div class="row">
-            <div class="col-md-2 col-sm-4">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Benefits</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <ul>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Image Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Term and Services</a></li>
-                    <li><a href="#">About Burnout</a></li>
-                </ul>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <h2>About our Blog</h2>
-                <p>To enjoy good health, to bring true happiness to one's family, to bring peace to all, one must first discipline and control one's own mind. If a man can control his mind he can find the way to Enlightenment.</p>
-            </div>
+          <div class="col-md-2 col-sm-4">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Benefits</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Image Gallery</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Term and Services</a></li>
+              <li><a href="#">About Burnout</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <h2>About our Blog</h2>
+            <p>
+              To enjoy good health, to bring true happiness to one's family, to
+              bring peace to all, one must first discipline and control one's
+              own mind. If a man can control his mind he can find the way to
+              Enlightenment.
+            </p>
+          </div>
         </div>
         <div class="row copy-footer">
-            <div class="col-sm-6 col-md-3"> &copy;<script type="text/javascript">document.write(new Date().getFullYear());</script> <a target="_blank" rel="nofollow" href="https://grafreez.com/"></a> Grafreez.com </div>
-            <div class="col-sm-6 col-md-3 pull-right text-xs-right">Created with <i class="fa fa-heart"></i></div>
+          <div class="col-sm-6 col-md-3">
+            &copy;
+            <script type="text/javascript">
+              document.write(new Date().getFullYear());
+            </script>
+            <a target="_blank" rel="nofollow" href="https://grafreez.com/"></a>
+            Grafreez.com
+          </div>
+          <div class="col-sm-6 col-md-3 pull-right text-xs-right">
+            Created with <i class="fa fa-heart"></i>
+          </div>
         </div>
-    </div>
-</footer>
+      </div>
+    </footer>
 
-<script src="js/jquery.min.js" ></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/scrollPosStyler.js"></script>
-<script src="js/swiper.min.js"></script>
-<script src="js/isotope.min.js"></script>
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/core.js"></script>
-<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-
-</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollPosStyler.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/core.js"></script>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>

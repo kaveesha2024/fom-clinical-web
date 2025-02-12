@@ -1,0 +1,42 @@
+.teamIcon {
+    margin: 10px;
+}
+
+.positionTopic {
+    padding: 10px 0 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.profileImg {
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: .5s;
+    -webkit-box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.75);
+}
+.profileImg:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.75);
+}
+
+.bio {
+    margin: 30px 0 8px 30px;
+}
+
+.bioh6 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.teamIconBox {
+    display: flex;
+    justify-content: flex-start;
+ }
