@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-            rel="icon"
-            href="https://www.medi.ruh.ac.lk/wp-content/uploads/2019/04/logouor.png"
+      rel="icon"
+      href="https://www.medi.ruh.ac.lk/wp-content/uploads/2019/04/logouor.png"
     />
-    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/new.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/loaders.css" />
@@ -16,251 +16,295 @@
     <link rel="stylesheet" href="css/nivo-lightbox.css" />
     <link rel="stylesheet" href="css/nivo_themes/default/default.css" />
     <link
-            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-            rel="stylesheet"
-            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-            crossorigin="anonymous"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
     />
     <title>Our Services</title>
-</head>
-<body>
-<div class="loader loader-bg">
-    <div class="loader-inner ball-clip-rotate-pulse">
+  </head>
+  <body>
+    <div class="loader loader-bg">
+      <div class="loader-inner ball-clip-rotate-pulse">
         <div></div>
         <div></div>
+      </div>
     </div>
-</div>
 
-<nav class="navbar navbar-toggleable-md mb-4 top-bar navbar-static-top sps sps--abv">
-    <div class="container">
+    <nav
+      class="navbar navbar-toggleable-md mb-4 top-bar navbar-static-top sps sps--abv"
+    >
+      <div class="container">
         <button
-                class="navbar-toggler navbar-toggler-right"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarCollapse1"
-                aria-controls="navbarCollapse"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse1"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="/"  style="user-select: none;"  >Research <span>Clinic</span></a>
+        <a class="navbar-brand" href="/" style="user-select: none"
+          >Research <span>Clinic</span></a
+        >
         <div class="collapse navbar-collapse" id="navbarCollapse1">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link " href="index.html"  style="user-select: none;"  > Home <span class="sr-only">(current)</span></a></li>
-                <li class="nav-item"  ><a class="nav-link" href="about.html"  style="user-select: none;"  >About Us</a></li>
-                <li class="nav-item active "><a class="nav-link" href=""  style="user-select: none;"  >Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="team.html"  style="user-select: none;"  >Our Team</a></li>
-                <!--            <li class="nav-item"><a class="nav-link" href="#gallery"  style="user-select: none;"  >Image Gallery</a></li>-->
-                <li class="nav-item"><a class="nav-link" href="#contact"  style="user-select: none;"  >Contact Us</a></li>
-            </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="user-select: none">
+                Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" style="user-select: none"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="" style="user-select: none">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html" style="user-select: none"
+                >Our Team</a
+              >
+            </li>
+            <!--            <li class="nav-item"><a class="nav-link" href="#gallery"  style="user-select: none;"  >Image Gallery</a></li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" style="user-select: none"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+
+    <div class="swiper-container main-slider" id="myCarousel">
+      <div class="swiper-wrapper">
+        <div
+          class="swiper-slide slider-bg-position"
+          style="background: url(&quot;img/services1.jpg&quot;)"
+          data-hash="slide1"
+        >
+          <h2>Our Services</h2>
+        </div>
+        <div
+          class="swiper-slide slider-bg-position"
+          style="background: url(&quot;img/services2.jpg&quot;)"
+          data-hash="slide2"
+        >
+          <h2>How We Help You Stay Healthy</h2>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
+      <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
     </div>
-</nav>
 
-<div class="swiper-container main-slider" id="myCarousel">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide slider-bg-position" style="background:url('img/services1.jpg')" data-hash="slide1">
-            <h2>Our Services</h2>
-        </div>
-        <div class="swiper-slide slider-bg-position" style="background:url('img/services2.jpg')" data-hash="slide2">
-            <h2> How We Help You Stay Healthy</h2>
-        </div>
-    </div>
-
-    <div class="swiper-pagination"></div>
-
-    <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
-    <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
-</div>
-
-<section class="service_section layout_padding">
-    <div class="service_container">
-        <div class="container ">
-            <div class="heading_container heading_center">
-                <h2 style="font-weight: 600; text-align: center; color: black;  margin-bottom: 50px" >
-                    Our <span style="color: #1a76d1;" >Services 💡 </span>
-                </h2>
-                <p style="text-align: center">
-<!--                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration-->
-                </p>
-            </div>
-            <div class="row">
-                <div class="col-md-4 ">
-                    <div class="box ">
-                        <div class="img-box">
-<!--                            <img src="img/s1.png" alt="">-->
-                        </div>
-                        <div class="detail-box">
-                            <h5 style="margin-bottom: 20px; " >
-                                🔬 Health Screening
-                            </h5>
-                            <p style="margin-bottom: 5px" >
-                                Assess children & adults at risk of NCDs.
-                            </p>
-                            <p style="margin-bottom: 5px">
-                                Comprehensive lifestyle assessment: food intake, physical activity, sleep health, stress levels.
-                            </p>
-                            <a href="">
-<!--                                Read More-->
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ">
-                    <div class="box ">
-                        <div class="img-box">
-<!--                            <img src="images/s2.png" alt="">-->
-                        </div>
-                        <div class="detail-box">
-                            <h5 style="margin-bottom: 20px; ">
-                                🥗 Nutrition & Lifestyle Interventions
-                            </h5>
-                            <p style="margin-bottom: 5px">
-                                Personalized diet plans for different health conditions.
-                            </p>
-                            <p style="margin-bottom: 5px">
-                                Exercise programs & stress management.
-                            </p>
-                            <a href="">
-<!--                                Read More-->
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ">
-                    <div class="box ">
-                        <div class="img-box">
-<!--                            <img src="images/s3.png" alt="">-->
-                        </div>
-                        <div class="detail-box">
-                            <h5 style="margin-bottom: 20px; ">
-                                🎓 Education & Research
-                            </h5>
-                            <p style="margin-bottom: 5px">
-                                Training sessions for individuals & healthcare professionals.
-                            </p>
-                            <p style="margin-bottom: 5px">
-                                Facilitate undergraduate & postgraduate research.
-                            </p>
-                            <a href="">
-<!--                                Read More-->
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div class="btn-box">
-                <a href="">
-<!--                    View All-->
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="about_section layout_padding">
-    <div class="container  ">
-        <div class="heading_container heading_center">
-            <h2>
-                🤝Collaborations <span></span>
+    <section class="service_section layout_padding">
+      <div class="service_container">
+        <div class="container">
+          <div class="heading_container heading_center">
+            <h2
+              style="
+                font-weight: 600;
+                text-align: center;
+                color: black;
+                margin-bottom: 50px;
+              "
+            >
+              Our <span style="color: #1a76d1">Services 💡 </span>
             </h2>
-            <p>
-                We believe in the power of collaboration to create a lasting impact on public health.
-                Our clinic partners with universities, healthcare professionals,
-                and national/international organizations to develop research-backed lifestyle interventions.
-                Through these partnerships, we aim to advance knowledge, improve community health,
-                and provide evidence-based solutions for preventing and reversing chronic diseases.
+            <p style="text-align: center">
+              <!--                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration-->
             </p>
-        </div>
-        <div class="row">
-            <div class="col-md-6 ">
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box">
                 <div class="img-box">
-                    <img src="img/services3.jpg" style="width: 500px; height: 300px" alt="">
+                  <!--                            <img src="img/s1.png" alt="">-->
                 </div>
-            </div>
-            <div class="col-md-6">
                 <div class="detail-box">
-                    <h5>
-                        Research Opportunities
-                    </h5>
-                    <p>
-                        We facilitate undergraduate and postgraduate studies in lifestyle medicine.
-                    </p>
-                    <h5>
-                        Workshops & Training
-                    </h5>
-                    <p>
-                        We conduct programs for professionals and the public to promote healthy living.
-                    </p>
-                    <h5>
-                        Global & Local Impact
-                    </h5>
-                    <p>
-                        Collaborating with experts worldwide to address nutrition and lifestyle challenges.
-                    </p>
-<!--                    <p>-->
-<!--                        Molestiae odio earum non qui cumque provident voluptates,-->
-<!--                        repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet.-->
-<!--                        Nobis ullam ab omnis quasi expedita.-->
-<!--                    </p>-->
-                    <a href="#">
-                        Schedule an Appointment
-                    </a>
+                  <h5 style="margin-bottom: 20px">🔬 Health Screening</h5>
+                  <p style="margin-bottom: 5px">
+                    Assess children & adults at risk of NCDs.
+                  </p>
+                  <p style="margin-bottom: 5px">
+                    Comprehensive lifestyle assessment: food intake, physical
+                    activity, sleep health, stress levels.
+                  </p>
+                  <a href="">
+                    <!--                                Read More-->
+                  </a>
                 </div>
+              </div>
             </div>
+            <div class="col-md-4">
+              <div class="box">
+                <div class="img-box">
+                  <!--                            <img src="images/s2.png" alt="">-->
+                </div>
+                <div class="detail-box">
+                  <h5 style="margin-bottom: 20px">
+                    🥗 Nutrition & Lifestyle Interventions
+                  </h5>
+                  <p style="margin-bottom: 5px">
+                    Personalized diet plans for different health conditions.
+                  </p>
+                  <p style="margin-bottom: 5px">
+                    Exercise programs & stress management.
+                  </p>
+                  <a href="">
+                    <!--                                Read More-->
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box">
+                <div class="img-box">
+                  <!--                            <img src="images/s3.png" alt="">-->
+                </div>
+                <div class="detail-box">
+                  <h5 style="margin-bottom: 20px">🎓 Education & Research</h5>
+                  <p style="margin-bottom: 5px">
+                    Training sessions for individuals & healthcare
+                    professionals.
+                  </p>
+                  <p style="margin-bottom: 5px">
+                    Facilitate undergraduate & postgraduate research.
+                  </p>
+                  <a href="">
+                    <!--                                Read More-->
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-box">
+            <a href="">
+              <!--                    View All-->
+            </a>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<footer>
-    <div class="container">
+    <section class="about_section layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>🤝Collaborations <span></span></h2>
+          <p>
+            We believe in the power of collaboration to create a lasting impact
+            on public health. Our clinic partners with universities, healthcare
+            professionals, and national/international organizations to develop
+            research-backed lifestyle interventions. Through these partnerships,
+            we aim to advance knowledge, improve community health, and provide
+            evidence-based solutions for preventing and reversing chronic
+            diseases.
+          </p>
+        </div>
         <div class="row">
-            <div class="col-md-2 col-sm-4">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Benefits</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
+          <div class="col-md-6">
+            <div class="img-box">
+              <img
+                src="img/services3.jpg"
+                style="width: 500px; height: 300px"
+                alt=""
+              />
             </div>
-            <div class="col-md-2 col-sm-4">
-                <ul>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Image Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="detail-box">
+              <h5>Research Opportunities</h5>
+              <p>
+                We facilitate undergraduate and postgraduate studies in
+                lifestyle medicine.
+              </p>
+              <h5>Workshops & Training</h5>
+              <p>
+                We conduct programs for professionals and the public to promote
+                healthy living.
+              </p>
+              <h5>Global & Local Impact</h5>
+              <p>
+                Collaborating with experts worldwide to address nutrition and
+                lifestyle challenges.
+              </p>
+              <!--                    <p>-->
+              <!--                        Molestiae odio earum non qui cumque provident voluptates,-->
+              <!--                        repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet.-->
+              <!--                        Nobis ullam ab omnis quasi expedita.-->
+              <!--                    </p>-->
+              <a href="#"> Schedule an Appointment </a>
             </div>
-            <div class="col-md-2 col-sm-4">
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Term and Services</a></li>
-                    <li><a href="#">About Burnout</a></li>
-                </ul>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <h2>About our Blog</h2>
-                <p>To enjoy good health, to bring true happiness to one's family, to bring peace to all, one must first discipline and control one's own mind. If a man can control his mind he can find the way to Enlightenment.</p>
-            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-4">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Benefits</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Image Gallery</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Term and Services</a></li>
+              <li><a href="#">About Burnout</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <h2>About our Blog</h2>
+            <p>
+              To enjoy good health, to bring true happiness to one's family, to
+              bring peace to all, one must first discipline and control one's
+              own mind. If a man can control his mind he can find the way to
+              Enlightenment.
+            </p>
+          </div>
         </div>
         <div class="row copy-footer">
-            <div class="col-sm-6 col-md-3"> &copy;<script type="text/javascript">document.write(new Date().getFullYear());</script> <a target="_blank" rel="nofollow" href="https://grafreez.com/"></a> Grafreez.com </div>
-            <div class="col-sm-6 col-md-3 pull-right text-xs-right">Created with <i class="fa fa-heart"></i></div>
+          <div class="col-sm-6 col-md-3">
+            &copy;
+            <script type="text/javascript">
+              document.write(new Date().getFullYear());
+            </script>
+            <a target="_blank" rel="nofollow" href="https://grafreez.com/"></a>
+            Grafreez.com
+          </div>
+          <div class="col-sm-6 col-md-3 pull-right text-xs-right">
+            Created with <i class="fa fa-heart"></i>
+          </div>
         </div>
-    </div>
-</footer>
+      </div>
+    </footer>
 
-<script src="js/jquery.min.js" ></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/scrollPosStyler.js"></script>
-<script src="js/swiper.min.js"></script>
-<script src="js/isotope.min.js"></script>
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/core.js"></script>
-<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-
-</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollPosStyler.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/core.js"></script>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
