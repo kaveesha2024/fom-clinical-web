@@ -12,10 +12,13 @@
     text-transform: uppercase;
 }
 
+
 .profileImg {
     border-radius: 10px;
     margin-bottom: 30px;
     transition: .5s;
+    width: 250px;
+    height: 300px;
     -webkit-box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.75);
@@ -32,11 +35,84 @@
 }
 
 .bioh6 {
-    margin-left: 30px;
+    margin-left: 0px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .teamIconBox {
     display: flex;
     justify-content: flex-start;
  }
+
+.scientificSectionNameHead {
+    color: black;
+    font-weight: 600;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*margin-top: 50px ;*/
+}
+
+.profileInfoBox {
+    margin-left: 70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoParagraph {
+    width: 100%;
+}
+
+.personalBox {
+    margin-bottom: 100px;
+    border-bottom: #00fdda solid 2px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*background: #1a76d1;*/
+    align-items: center;
+    width: 80%;
+}
+
+.personalBoxLast {
+    margin-bottom: 40px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*background: #1a76d1;*/
+    align-items: center;
+    width: 80%;
+}
+
+.resourcePersonsProfilePictureBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resourcePersonsDualProfilePictureBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileInfoBoxTest {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
