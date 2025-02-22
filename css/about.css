@@ -1,0 +1,44 @@
+
+.modButton {
+    background-color: white;
+    border: 2px solid #2b96fa;
+    border-radius: 7px;
+    padding: 5px 7px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    color: black;
+    user-select: none;
+    transition: .5s;
+}
+
+.modButton::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 300%;
+    height: 300%;
+    background: linear-gradient(#0083fd, #00c3ff);
+    transition: top 0.5s ease-in-out, left 0.5s ease-in-out;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.modButton:hover::before {
+    top: -100%;
+    left: -100%;
+}
+
+.modButton:hover {
+    color: white;
+    z-index: 1;
+    transform: scale(1.2);
+}
+
+.modButton span {
+    position: relative;
+    z-index: 1;
+}

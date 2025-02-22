@@ -14,7 +14,7 @@
 
 
 .profileImg {
-    border-radius: 10px;
+    border-radius: 0px;
     margin-bottom: 30px;
     transition: .5s;
     width: 250px;
